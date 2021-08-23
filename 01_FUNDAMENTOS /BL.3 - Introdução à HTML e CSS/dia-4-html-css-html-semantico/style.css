@@ -1,0 +1,79 @@
+.header {
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 40px;
+    background-color: #F1F2EB;
+}
+
+.fatos {
+    font-size:35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    font-size: large;
+    border-width: 1px;
+    border-style:solid;
+}
+
+.li_nav {
+    display: inline-block;
+    width: 110px;
+    margin-left: 250px;
+}
+
+h3 {
+    font-family:'Courier New', Courier, monospace;
+    background-color: #A4C2A5;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    background-color: #C2F9BB;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.foto1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+}
+
+.foto_tamanho {
+    width: 630px;
+    height: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foto_olhos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foto_ataque {
+    width: 630px;
+    height: 330px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ultimo_h3 {
+    text-align: center;
+    font-size: larger;
+}
+
+.footer {
+    text-align: center;
+}
