@@ -23,12 +23,13 @@
     margin-left: 250px;
 }
 
-h3 {
+h2 {
     font-family:'Courier New', Courier, monospace;
     background-color: #A4C2A5;
+    font-size: 18px;
 }
 
-h2 {
+h1 {
     text-align: center;
 }
 
