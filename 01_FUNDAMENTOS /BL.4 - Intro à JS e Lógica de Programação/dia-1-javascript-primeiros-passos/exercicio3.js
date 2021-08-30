@@ -1,11 +1,15 @@
-const num1 = 15;
-const num2 = 18;
-const num3 = 24;
+const num1 = 25;
+const num2 = 181;
+const num3 = 2;
 
-if (num1 > num2 && num1 > num3) {
-    console.log(num1)
-} else if (num2 > num1 && num2 > num3) {
-    console.log(num2);
-} else {
-    console.log(num3);
+function maiorDeTres (x, y, z) {
+    if (num1 > num2 && num1 > num3) {
+         return 'O maior é o ' + num1;
+    } else if (num2 > num1 && num2 > num3) {
+        return 'O maior é o ' + num2;
+    } else {
+        return 'O maior é o ' + num3;
+    }
 }
+
+console.log(maiorDeTres(num1, num2, num3));

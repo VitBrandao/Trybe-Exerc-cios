@@ -1,9 +1,13 @@
-const num = 0;
+const num = -12;
 
-if (num > 0) {
-    console.log("positive");
-} else if (num < 0) {
-    console.log("negative");
-} else {
-    console.log("fucking zero");
+function positiveNegative (x) {
+    if (num > 0) {
+        return "positive";
+    } else if (num < 0) {
+        return "negative";
+    } else {
+        return "fucking zero";
+    }
 }
+
+console.log(positiveNegative(num));
