@@ -13,7 +13,93 @@
 
     <script>
 
-    document.querySelector("#elementoOndeVoceEsta");    
+    /* PRÁTICA 01 
+    
+    1. Acesse o elemento elementoOndeVoceEsta .
 
+    document.getElementById("elementoOndeVoceEsta");
+
+
+    2. Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
+
+    Father = document.getElementById("elementoOndeVoceEsta").parentNode;
+    Father.style.color = "red"  ;
+
+
+    3. Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da aula anterior, como fazer isso?
+
+    tag = document.getElementById("primeiroFilhoDoFilho");
+    tag.innerText = "Vitor";
+
+
+    4. Acesse o primeiroFilho a partir de pai .
+
+    document.getElementById("pai").firstElementChild;
+
+    
+    5. Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta .
+
+    document.getElementById("elementoOndeVoceEsta").previousElementSibling;
+
+
+    6. Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta .
+
+    document.getElementById("elementoOndeVoceEsta").nextSibling;
+
+    7. Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta .
+
+    document.getElementById("elementoOndeVoceEsta").nextElementSibling;
+
+
+    8. Agora acesse o terceiroFilho a partir de pai . 
+
+    document.getElementById("pai").lastElementChild.previousElementSibling  
+    
+
+
+    PROPOSTAS 02 
+
+    9. Crie um irmão para elementoOndeVoceEsta .
+
+    let aux = document.querySelector("#pai")
+
+    let irmao = document.createElement("section")
+
+    aux.appendChild(irmao)
+
+
+    10. Crie um filho para elementoOndeVoceEsta .
+
+    let whereAmI = document.getElementById("elementoOndeVoceEsta")
+
+    let newSon = document.createElement("div")
+
+    whereAmI.appendChild(newSon)
+
+
+    11. Crie um filho para primeiroFilhoDoFilho .
+
+    let firstGrandchild = document.getElementById("primeiroFilhoDoFilho")
+
+    let newBornSon = document.createElement("span")
+
+    firstGrandchild.appendChild(newBornSon)  
+
+    
+    12. A partir desse filho criado, acesse terceiroFilho .
+
+    let aux2 = document.getElementsByTagName("span")[0]
+
+    aux2.parentNode.parentNode.nextElementSibling
+
+
+
+
+    PROPOSTA 03
+
+    13. Remova todos os elementos filhos de paiDoPai exceto pai , elementoOndeVoceEsta e primeiroFilhoDoFilho .
+
+    
+    */ 
     </script>
   </main>
